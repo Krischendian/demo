@@ -1,19 +1,19 @@
-/* 适用于小于等于400像素宽度的屏幕 */
+/* For screens less than or equal to 400 pixels wide */
 @media (max-width: 400px) {
   body {
     font-size: 14px;
-    /* 其他适合小屏幕的样式 */
+    /* Other styles for small screens */
   }
 }
 
-/* 适用于大于400像素宽度的屏幕 */
+/* For screens larger than 400 pixels wide */
 @media (min-width: 401px) {
   body {
     font-size: 16px;
-    /* 其他适合大屏幕的样式 */
+   /* Other styles suitable for large screens */
   }
 }
-/* 适用于小于等于700像素宽度的屏幕 */
+/* For screens less than or equal to 700 pixels wide */
 @media (max-width: 700px) {
   .about-me {
     flex-direction: column;
@@ -23,7 +23,7 @@
   }
 }
 
-/* 全局样式 */
+/* Global style */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -109,7 +109,7 @@ footer {
   padding: 50px;
 }
 
-/* 样式调整 */
+/* Stylistic adjustments */
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -153,7 +153,7 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* 美化datalist */
+/* Landscaping datalist */
 datalist {
   border: 1px solid #ccc;
   max-height: 150px;
@@ -162,7 +162,7 @@ datalist {
   border-radius: 3px;
 }
 
-/* 调整字体大小 */
+/* Adjust font size */
 form,
 label,
 input,
@@ -170,7 +170,7 @@ textarea {
   font-size: 14px;
 }
 
-/* 响应式样式，适应小屏幕设备 */
+/* Responsive styling to accommodate small screen devices */
 @media (max-width: 480px) {
   label {
     width: 100%;
