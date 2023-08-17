@@ -1,193 +1,195 @@
 /* For screens less than or equal to 400 pixels wide */
 @media (max-width: 400px) {
+    body {
+      font-size: 14px;
+      /* Other styles for small screens */
+    }
+  }
+  
+  /* For screens larger than 400 pixels wide */
+  @media (min-width: 401px) {
+    body {
+      font-size: 16px;
+     /* Other styles suitable for large screens */
+    }
+  }
+  /* For screens less than or equal to 700 pixels wide */
+  @media (max-width: 700px) {
+    .about-me {
+      flex-direction: column;
+    }
+    .card-item {
+      flex-direction: column;
+    }
+  }
+  
+  /* Global style */
   body {
-    font-size: 14px;
-    /* Other styles for small screens */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 95%;
   }
-}
-
-/* For screens larger than 400 pixels wide */
-@media (min-width: 401px) {
-  body {
-    font-size: 16px;
-   /* Other styles suitable for large screens */
+  
+  header {
+    text-align: center;
+    padding: 20px;
   }
-}
-/* For screens less than or equal to 700 pixels wide */
-@media (max-width: 700px) {
-  .about-me {
-    flex-direction: column;
+  
+  header img {
+    max-width: 100px;
+    height: auto;
   }
-  .card-item {
-    flex-direction: column;
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
   }
-}
-
-/* Global style */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  width: 95%;
-}
-
-header {
-  text-align: center;
-  padding: 20px;
-}
-
-header img {
-  max-width: 100px;
-  height: auto;
-}
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-section {
-  padding: 20px;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-form input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-form button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #eee;
-}
-#about,
-#education,
-#contact {
-  margin: 0 auto;
-  margin-bottom: 20px;
-  max-width: 1024px;
-}
-
-.about-me {
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  padding: 20px;
-  padding-right: 150px;
-}
-.flex-jc-sb-ac-c {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card-item {
-  display: flex;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 40px;
-}
-.card-item .left-info {
-  padding: 100px;
-  background: #404eed;
-}
-.card-item .right-info {
-  padding: 50px;
-}
-
-/* Stylistic adjustments */
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-}
-
-label {
-  display: inline-block;
-  width: 150px;
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-input[type="radio"] {
-  margin-right: 5px;
-}
-
-input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-/* Landscaping datalist */
-datalist {
-  border: 1px solid #ccc;
-  max-height: 150px;
-  overflow-y: auto;
-  background-color: #fff;
-  border-radius: 3px;
-}
-
-/* Adjust font size */
-form,
-label,
-input,
-textarea {
-  font-size: 14px;
-}
-
-/* Responsive styling to accommodate small screen devices */
-@media (max-width: 480px) {
-  label {
-    width: 100%;
+  
+  section {
+    padding: 20px;
+  }
+  
+  form label {
     display: block;
+    margin-bottom: 5px;
   }
-}
-
-.radio-container {
-  display: flex;
-  align-items: center;
-}
-
-.radio-container label {
-  margin-right: 10px;
-}
-
-.radio-container input[type="radio"] {
-  margin-right: 5px;
-  vertical-align: middle;
-}
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #231c1c;
+    color: #6c6767;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+  }
+  #about,
+  #education,
+  #contact {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 1024px;
+  }
+  
+  .about-me {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(60, 25, 163, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 150px;
+    background: #b89167;
+  }
+  .flex-jc-sb-ac-c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-item {
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  .card-item .left-info {
+    padding: 100px;
+    background: #84684b;
+  }
+  .card-item .right-info {
+    padding: 50px;
+    background: #ab9781;
+  }
+  
+  /* Stylistic adjustments */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #dbd7d1ec;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #826139;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Landscaping datalist */
+  datalist {
+    border: 1px solid #7885c7;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Adjust font size */
+  form,
+  label,
+  input,
+  textarea {
+    font-size: 14px;
+  }
+  
+  /* Responsive styling to accommodate small screen devices */
+  @media (max-width: 480px) {
+    label {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .radio-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-container label {
+    margin-right: 10px;
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
