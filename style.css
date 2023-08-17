@@ -64,7 +64,7 @@
   form button {
     padding: 10px 20px;
     background-color: #231c1c;
-    color: #6c6767;
+    color: #70624a;
     border: none;
     cursor: pointer;
   }
@@ -89,7 +89,7 @@
     border-radius: 20px;
     padding: 20px;
     padding-right: 150px;
-    background: #b89167;
+    background: #a0876c;
   }
   .flex-jc-sb-ac-c {
     display: flex;
@@ -116,8 +116,8 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #dbd7d1ec;
+    border: 1px solid #b0a293;
+    background-color: #a79582ec;
     border-radius: 5px;
   }
   
